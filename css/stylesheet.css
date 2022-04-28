@@ -1,5 +1,5 @@
 .parallax {
-    background-image: url("https://www.carscoops.com/wp-content/uploads/2022/03/Bugatti-Divo-1-CS.jpg");
+    background-image: url("");
 
     /* Set a specific height */
     min-height: 400px;
@@ -11,16 +11,22 @@
     background-size: cover;
   }
 
+  .content { 
+    background-color: rgba(255, 255, 255, 0.002);
+  }
+
   .bg-car {
           /* The image used */
-    background-image: url("img_parallax.jpg");
+    background-image: url("https://www.carscoops.com/wp-content/uploads/2022/03/Bugatti-Divo-1-CS.jpg");
   }
 
-  .content {
-      background-color: rgba(255, 255, 255, 0.002);
-  }
 
-  .bg-sign {
+  .bg-city {
     /* The image used */
-background-image: url("img_parallax.jpg");
+    background-image: url("https://content.r9cdn.net/rimg/dimg/05/86/5220b71c-city-29716-1685c70c262.jpg?crop=true&width=1366&height=768&xhint=2055&yhint=1374");
+}
+
+  .bg-forex {
+  /* The image used */
+    background-image: url("https://cdn.corporatefinanceinstitute.com/assets/foreign-exchange-1024x684.jpeg");
 }
