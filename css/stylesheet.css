@@ -1,0 +1,26 @@
+.parallax {
+    background-image: url("https://www.carscoops.com/wp-content/uploads/2022/03/Bugatti-Divo-1-CS.jpg");
+
+    /* Set a specific height */
+    min-height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-car {
+          /* The image used */
+    background-image: url("img_parallax.jpg");
+  }
+
+  .content {
+      background-color: rgba(255, 255, 255, 0.002);
+  }
+
+  .bg-sign {
+    /* The image used */
+background-image: url("img_parallax.jpg");
+}
